@@ -1,10 +1,10 @@
 # rendercv_resume
 
-The professional resume of Damon Myers, generated with RenderCV.
+The professional resume of Damon Myers, generated with [RenderCV](https://github.com/rendercv/rendercv).
 
 ## Setup
 
-Install rendercv with:
+Install RenderCV with:
 
 ``` sh
 uv tool install "rendercv[full]"
