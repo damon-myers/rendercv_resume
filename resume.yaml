@@ -1,0 +1,10 @@
+resume:
+  name: Damon Myers
+  location: Portland, OR
+  email: damon.shane.myers@gmail.com
+  website: https://damonmyers.com
+  social:
+    - network: LinkedIn
+      username: myersdamon
+    - network: GitHub
+      username: damon-myers
