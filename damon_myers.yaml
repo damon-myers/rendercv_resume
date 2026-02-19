@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Damon Myers
-  headline: Staff Software Engineer | Data Platform
+  headline: Staff Software Engineer | Data Platforms
   location: Portland, OR
   email: damon.shane.myers@gmail.com
   website: https://damonmyers.com
@@ -11,7 +11,7 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Staff Software Engineer with 10 years of experience leveraging data to solve complex business problems. Brings broad expertise in scaling and supporting reliable data access and transformation. Improves team velocity by emphasizing the importance of testing, defining best practices and coding standards, and effectively communicating with all stakeholders.
+      - Staff Software Engineer with 10 years of experience designing and building scalable data pipelines, lakehouse architectures, and ML-powered solutions. Deep expertise in Spark/PySpark, Databricks, Delta Lake, Airflow, and AWS. Proven track record of reducing operational costs, improving data reliability, and supporting  production ML models. Drives team effectiveness by promoting a testing culture, CI/CD best practices, and clear cross-functional communication.
     experience:
       - company: SentiLink
         position: Staff Software Engineer, Data Platform
@@ -21,6 +21,10 @@ cv:
         location: San Francisco, CA (Remote)
         summary:
         highlights:
+          - Automated complex identity dataset ETL pipeline using PySpark, Airflow, and AWS ECS, reducing monthly operational effort from 3 weeks to 2 days.
+          - Conducted performance testing to ensure a smooth migration from RDS PostgreSQL to Aurora PostgreSQL, reducing costs while improving reliability.
+          - Designed and documented north-star architecture for core data infrastructure, including automated ingestion pipelines, gRPC data services, data quality checks, and a self-service lakehouse for cross-team consumption.
+          - Instrumented and monitored production gRPC data services and event-driven ingestion pipelines using Datadog for metrics, alerting, and distributed tracing.
       - company: Aetion
         position: Staff Software Engineer
         date:
@@ -29,6 +33,8 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
+          - Designed and built scalable ingestion tools in Scala Spark, PySpark, and Airflow supporting hundreds of datasets ranging from tens of gigabytes to tens of terabytes.
+          - Led a team of 3 engineers building a Scala Spark test framework to identify data inconsistencies between Parquet and a proprietary data format.
       - company: Aetion
         position: Senior Software Engineer
         date:
@@ -37,7 +43,10 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
-          - Promoted to Staff Software Engineer in September 2023
+          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow and PySpark, eliminating the need for custom transformation SQL per dataset.
+          - Optimized Elasticsearch indexing configuration and cluster scale, resulting in an annual cost reduction of $400,000.
+          - Implemented a framework for integration testing of Spark applications, significantly reducing production defects.
+          - Promoted to Staff Software Engineer in September 2023.
       - company: LegitScript
         position: Senior Software Engineer
         date:
@@ -46,6 +55,9 @@ cv:
         location: Portland, OR (Remote)
         summary:
         highlights:
+          - Designed and implemented the proof-of-concept Data Lakehouse that provided the foundation for LegitScript's current Data Lake, using AWS DMS for CDC streaming to S3 with ingestion into Databricks and Delta Lake, plus a GraphQL data abstraction layer built with Node.js and AWS Lambda.
+          - Developed a high-performance web scraping pipeline capable of crawling and ingesting 500,000 websites daily using TypeScript, AWS Step Functions, Lambda, and EventBridge.
+          - Led maintenance and enhancement of a horizontally scalable web crawler operating in a Kubernetes cluster on AWS EKS.
       - company: LegitScript
         position: Software Engineer
         date:
@@ -54,7 +66,9 @@ cv:
         location: Portland, OR
         summary:
         highlights:
-          - Promoted to Senior Software Engineer in December 2020
+          - Designed and maintained a streaming ETL pipeline processing 2.5 billion changes per month from MySQL to Elasticsearch, scaling the cluster to handle tens of terabytes of data.
+          - Trained and deployed ML models using AWS SageMaker, achieving 97% accuracy for website categorization via HTML analysis.
+          - Promoted to Senior Software Engineer in December 2020.
       - company: PLEXSYS Interface Products
         position: Junior Software Engineer
         date:
@@ -63,26 +77,25 @@ cv:
         location: Camas, WA
         summary:
         highlights:
+          - Designed and implemented frontend and backend components for real-time simulation applications using C++, Qt, and Object-Oriented Design principles.
       - company: City of Odessa
         position: GIS Developer
         date:
         start_date: 2014-08
         end_date: 2016-08
-        location: Camas, WA
+        location: Odessa, TX
         summary:
         highlights:
-    projects:
-      - name: "[Manasmith](https://github.com/damon-myers/manasmith)"
-        summary: Fullstack webapp for interactively building, diffing, and cataloging MtG decks.
+          - Built web mapping interfaces for data visualization using ArcGIS JavaScript API and automated GIS database administration with Python.
     skills:
       - label: Languages
-        details: Python, Scala, Go, TypeScript, C++, Rust
-      - label: Data Transformation
-        details: Spark, Airflow, DuckDB
-      - label: Data Infrastructure
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
-      - label: Infrastructure
-        details: Kubernetes, AWS, tracing
+        details: Python, Scala, SQL, TypeScript, Go, C++
+      - label: Data Engineering
+        details: Spark/PySpark, Airflow, Databricks, PostgreSQL, MySQL, Elasticsearch, Delta Lake, DuckDB
+      - label: Cloud & Infrastructure
+        details: AWS (ECS, Lambda, EKS, DMS, SageMaker, S3), Kubernetes, Docker, Terraform
+      - label: Practices
+        details: CI/CD, Data Modeling, Integration Testing, Observability (Datadog)
     education:
       - institution: University of Texas of the Permian Basin
         area: Computer Science
