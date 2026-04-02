@@ -11,7 +11,7 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Staff Software Engineer with 10 years of experience designing and building scalable data pipelines, lakehouse architectures, and ML-powered solutions. Deep expertise in Spark/PySpark, Databricks, Delta Lake, Airflow, and AWS. Proven track record of reducing operational costs, improving data reliability, and supporting  production ML models. Drives team effectiveness by promoting a testing culture, CI/CD best practices, and clear cross-functional communication.
+      - Staff Data Engineer with 10 years of experience designing and building scalable data pipelines, lakehouse architectures, and ML-powered solutions. Deep expertise in Spark/PySpark, Databricks, Delta Lake, Airflow, and AWS. Proven track record of reducing operational costs, improving data reliability, and ensuring compliance with regulations. Drives team effectiveness by promoting a testing culture, CI/CD best practices, and clear cross-functional communication.
     experience:
       - company: SentiLink
         position: Staff Software Engineer, Data Platform
@@ -23,7 +23,9 @@ cv:
         highlights:
           - Automated complex identity dataset ETL pipeline using PySpark, Airflow, and AWS ECS, reducing monthly operational effort from 3 weeks to 2 days.
           - Conducted performance testing to ensure a smooth migration from RDS PostgreSQL to Aurora PostgreSQL, reducing costs while improving reliability.
-          - Designed and documented north-star architecture for core data infrastructure, including automated ingestion pipelines, gRPC data services, data quality checks, and a self-service lakehouse for cross-team consumption.
+          - Proposed and championed a north-star data platform architecture encompassing orchestrated ingestion pipelines, gRPC data microservices, data quality checks, and a self-service lakehouse. Secured cross-team buy-in and roadmap commitment to ensure progress towards those objectives.
+          - Designed and built a self-service lakehouse on AWS Glue and Athena.
+          - Enforced automated data quality validation across all batch pipelines using PyDeequ, ensuring data consistency and reliability in production.
           - Instrumented and monitored production gRPC data services and event-driven ingestion pipelines using Datadog for metrics, alerting, and distributed tracing.
       - company: Aetion
         position: Staff Software Engineer
@@ -33,7 +35,7 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
-          - Designed and built scalable ingestion tools in Scala Spark, PySpark, and Airflow supporting hundreds of datasets ranging from tens of gigabytes to tens of terabytes.
+          - Designed and built scalable ingestion tools in Databricks (Scala Spark, PySpark) and Airflow to process HIPAA-regulated EHR data, supporting hundreds of datasets ranging from tens of gigabytes to tens of terabytes.
           - Led a team of 3 engineers building a Scala Spark test framework to identify data inconsistencies between Parquet and a proprietary data format.
       - company: Aetion
         position: Senior Software Engineer
@@ -43,7 +45,7 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
-          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow and PySpark, eliminating the need for custom transformation SQL per dataset.
+          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow, PySpark, and Databricks for HIPAA-compliant EHR data, eliminating the need for custom transformation SQL per dataset.
           - Optimized Elasticsearch indexing configuration and cluster scale, resulting in an annual cost reduction of $400,000.
           - Implemented a framework for integration testing of Spark applications, significantly reducing production defects.
           - Promoted to Staff Software Engineer in September 2023.
@@ -91,11 +93,11 @@ cv:
       - label: Languages
         details: Python, Scala, SQL, TypeScript, Go, C++
       - label: Data Engineering
-        details: Spark/PySpark, Airflow, Databricks, PostgreSQL, MySQL, Elasticsearch, Delta Lake, DuckDB
+        details: Spark/PySpark, Airflow, Databricks, Delta Lake, PostgreSQL, MySQL, Elasticsearch, DuckDB, PyDeequ, AWS Glue, Athena
       - label: Cloud & Infrastructure
         details: AWS (ECS, Lambda, EKS, DMS, SageMaker, S3), Kubernetes, Docker, Terraform
       - label: Practices
-        details: CI/CD, Data Modeling, Integration Testing, Observability (Datadog)
+        details: CI/CD, Agile/Scrum, Data Modeling, Integration Testing, Observability (Datadog), HIPAA Compliance
     education:
       - institution: University of Texas of the Permian Basin
         area: Computer Science
