@@ -4,14 +4,14 @@ cv:
   headline: Staff Software Engineer | Data Platforms
   location: Portland, OR
   email: damon.shane.myers@gmail.com
-  website: https://damonmyers.com
   social_networks:
     - network: LinkedIn
       username: myersdamon
+  phone: "+1 (432) 257-7656"
   custom_connections:
   sections:
     summary:
-      - Staff Data Engineer with 10 years of experience designing and building scalable data pipelines, lakehouse architectures, and ML-powered solutions. Deep expertise in Spark/PySpark, Databricks, Delta Lake, Airflow, and AWS. Proven track record of reducing operational costs, improving data reliability, and ensuring compliance with regulations. Drives team effectiveness by promoting a testing culture, CI/CD best practices, and clear cross-functional communication.
+      - Staff Data Engineer with 10 years of experience designing and building scalable solutions to business problems. Expert in building lakehouse architectures and ETL/ELT pipelines on Databricks and AWS. Deep expertise in Spark/PySpark, Delta Lake, Airflow, and Databricks for both batch and low-latency streaming use cases. Proven track record reducing operational costs, improving data quality with PyDeequ and integration testing, and delivering HIPAA-compliant pipelines. Promotes TDD, CI/CD best practices, and observability to improve platform reliability.
     experience:
       - company: SentiLink
         position: Staff Software Engineer, Data Platform
@@ -23,10 +23,10 @@ cv:
         highlights:
           - Automated complex identity dataset ETL pipeline using PySpark, Airflow, and AWS ECS, reducing monthly operational effort from 3 weeks to 2 days.
           - Conducted performance testing to ensure a smooth migration from RDS PostgreSQL to Aurora PostgreSQL, reducing costs while improving reliability.
-          - Proposed and championed a north-star data platform architecture encompassing orchestrated ingestion pipelines, gRPC data microservices, data quality checks, and a self-service lakehouse. Secured cross-team buy-in and roadmap commitment to ensure progress towards those objectives.
+          - Proposed and championed a north-star data platform architecture encompassing orchestrated ingestion pipelines, gRPC data microservices, automated data quality checks, and a self-service lakehouse; secured cross-team buy-in and roadmap commitment.
           - Designed and built a self-service lakehouse on AWS Glue and Athena.
           - Enforced automated data quality validation across all batch pipelines using PyDeequ, ensuring data consistency and reliability in production.
-          - Instrumented and monitored production gRPC data services and event-driven ingestion pipelines using Datadog for metrics, alerting, and distributed tracing.
+          - Instrumented and monitored production gRPC data services and event-driven ingestion pipelines using Datadog for metrics, alerting, and distributed tracing to improve observability.
       - company: Aetion
         position: Staff Software Engineer
         date:
@@ -57,7 +57,7 @@ cv:
         location: Portland, OR (Remote)
         summary:
         highlights:
-          - Designed and implemented the proof-of-concept Data Lakehouse that provided the foundation for LegitScript's current Data Lake, using AWS DMS for CDC streaming to S3 with ingestion into Databricks and Delta Lake, plus a GraphQL data abstraction layer built with Node.js and AWS Lambda.
+          - Designed and implemented the proof-of-concept Data Lakehouse that provided the foundation for LegitScript’s current Data Lake, using AWS DMS for CDC streaming to S3 with ingestion into Databricks and Delta Lake, plus a GraphQL data abstraction layer built with Node.js and AWS Lambda.
           - Developed a high-performance web scraping pipeline capable of crawling and ingesting 500,000 websites daily using TypeScript, AWS Step Functions, Lambda, and EventBridge.
           - Led maintenance and enhancement of a horizontally scalable web crawler operating in a Kubernetes cluster on AWS EKS.
       - company: LegitScript
@@ -68,7 +68,7 @@ cv:
         location: Portland, OR
         summary:
         highlights:
-          - Designed and maintained a streaming ETL pipeline processing 2.5 billion changes per month from MySQL to Elasticsearch, scaling the cluster to handle tens of terabytes of data.
+          - Designed and maintained a low-latency streaming ETL pipeline processing 2.5 billion changes per month from MySQL to Elasticsearch, scaling the cluster to handle tens of terabytes of data.
           - Trained and deployed ML models using AWS SageMaker, achieving 97% accuracy for website categorization via HTML analysis.
           - Promoted to Senior Software Engineer in December 2020.
       - company: PLEXSYS Interface Products
@@ -93,11 +93,15 @@ cv:
       - label: Languages
         details: Python, Scala, SQL, TypeScript, Go, C++
       - label: Data Engineering
-        details: Spark/PySpark, Airflow, Databricks, Delta Lake, PostgreSQL, MySQL, Elasticsearch, DuckDB, PyDeequ, AWS Glue, Athena
+        details: Databricks (Scala/PySpark), Spark/PySpark, Delta Lake, Airflow, AWS Glue, Athena, PyDeequ
+      - label: Data Stores & Processing
+        details: PostgreSQL, MySQL, Elasticsearch, DuckDB, AWS DMS (CDC)
+      - label: APIs & Services
+        details: gRPC, GraphQL, microservices, API development
       - label: Cloud & Infrastructure
         details: AWS (ECS, Lambda, EKS, DMS, SageMaker, S3), Kubernetes, Docker, Terraform
-      - label: Practices
-        details: CI/CD, Agile/Scrum, Data Modeling, Integration Testing, Observability (Datadog), HIPAA Compliance
+      - label: Practices & Tools
+        details: CI/CD, TDD, integration testing, version control, observability (Datadog), data quality, data governance, HIPAA compliance
     education:
       - institution: University of Texas of the Permian Basin
         area: Computer Science
@@ -275,7 +279,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: "2026-02-09"
+  current_date: "2026-04-02"
   render_command:
     design:
     locale:
