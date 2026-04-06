@@ -11,7 +11,7 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Staff Data Engineer with 10 years of experience designing and building scalable solutions to business problems. Expert in building lakehouse architectures and ETL/ELT pipelines on Databricks and AWS. Deep expertise in Spark/PySpark, Delta Lake, Airflow, and Databricks for both batch and low-latency streaming use cases. Proven track record reducing operational costs, improving data quality with PyDeequ and integration testing, and delivering HIPAA-compliant pipelines. Promotes TDD, CI/CD best practices, and observability to improve platform reliability.
+      - Staff Data Engineer with 10 years of experience designing and building scalable solutions to business problems. Expert in building ETL/ELT pipelines on AWS. Deep expertise in Spark/PySpark, Airflow, and SQL/NoSQL databases. Designs and builds data pipelines for both batch and low-latency streaming use cases. Proven track record reducing operational costs, monitoring and improving data quality, and delivering reliable and maintainable pipelines. Promotes TDD, CI/CD best practices, and observability to improve platform reliability.
     experience:
       - company: SentiLink
         position: Staff Software Engineer, Data Platform
@@ -35,8 +35,8 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
-          - Designed and built scalable ingestion tools in Databricks (Scala Spark, PySpark) and Airflow to process HIPAA-regulated EHR data, supporting hundreds of datasets ranging from tens of gigabytes to tens of terabytes.
-          - Led a team of 3 engineers building a Scala Spark test framework to identify data inconsistencies between Parquet and a proprietary data format.
+          - Designed and built scalable ingestion tools in Databricks (Scala Spark, PySpark) and Airflow to transform EHR data, supporting hundreds of datasets ranging from tens of gigabytes to tens of terabytes.
+          - Led a team of 3 engineers building a Scala Spark test framework to identify data inconsistencies between datasets stored in Parquet and a proprietary data format.
       - company: Aetion
         position: Senior Software Engineer
         date:
@@ -45,7 +45,7 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
-          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow, PySpark, and Databricks for HIPAA-compliant EHR data, eliminating the need for custom transformation SQL per dataset.
+          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow, PySpark, and Databricks for EHR data, eliminating the need for custom transformation SQL per dataset.
           - Optimized Elasticsearch indexing configuration and cluster scale, resulting in an annual cost reduction of $400,000.
           - Implemented a framework for integration testing of Spark applications, significantly reducing production defects.
           - Promoted to Staff Software Engineer in September 2023.
