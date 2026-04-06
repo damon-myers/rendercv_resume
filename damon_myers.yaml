@@ -11,7 +11,7 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Staff Data Engineer with 10 years of experience designing and building scalable solutions to business problems. Expert in building ETL/ELT pipelines on AWS. Deep expertise in Spark/PySpark, Airflow, and SQL/NoSQL databases. Designs and builds data pipelines for both batch and low-latency streaming use cases. Proven track record reducing operational costs, monitoring and improving data quality, and delivering reliable and maintainable pipelines. Promotes TDD, CI/CD best practices, and observability to improve platform reliability.
+      - Staff Software Engineer with 10 years of experience building and operating data platforms on AWS. Expert in Spark, Airflow, and SQL/NoSQL databases across both batch and low-latency streaming workloads, with a track record of reducing operational costs, improving data quality, and delivering reliable pipelines at scale.
     experience:
       - company: SentiLink
         position: Staff Software Engineer, Data Platform
@@ -24,9 +24,7 @@ cv:
           - Automated complex identity dataset ETL pipeline using PySpark, Airflow, and AWS ECS, reducing monthly operational effort from 3 weeks to 2 days.
           - Conducted performance testing to ensure a smooth migration from RDS PostgreSQL to Aurora PostgreSQL, reducing costs while improving reliability.
           - Proposed and championed a north-star data platform architecture encompassing orchestrated ingestion pipelines, gRPC data microservices, automated data quality checks, and a self-service lakehouse; secured cross-team buy-in and roadmap commitment.
-          - Designed and built a self-service lakehouse on AWS Glue and Athena.
-          - Enforced automated data quality validation across all batch pipelines using PyDeequ, ensuring data consistency and reliability in production.
-          - Instrumented and monitored production gRPC data services and event-driven ingestion pipelines using Datadog for metrics, alerting, and distributed tracing to improve observability.
+          - Designed and built a self-service lakehouse on AWS Glue and Athena, enabling Data Science and Product teams to self-serve their analytics needs; enforced automated data quality validation using PyDeequ across all batch pipelines, achieving zero production data quality incidents over two quarters.
       - company: Aetion
         position: Staff Software Engineer
         date:
@@ -36,7 +34,7 @@ cv:
         summary:
         highlights:
           - Designed and built scalable ingestion tools in Databricks (Scala Spark, PySpark) and Airflow to transform EHR data, supporting hundreds of datasets ranging from tens of gigabytes to tens of terabytes.
-          - Led a team of 3 engineers building a Scala Spark test framework to identify data inconsistencies between datasets stored in Parquet and a proprietary data format.
+          - Led a team of 3 engineers building a Scala Spark test framework that uncovered critical data inconsistencies between datasets stored in Parquet and a proprietary data format, preventing corrupt data from reaching production.
       - company: Aetion
         position: Senior Software Engineer
         date:
@@ -45,7 +43,7 @@ cv:
         location: New York, NY (Remote)
         summary:
         highlights:
-          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow, PySpark, and Databricks for EHR data, eliminating the need for custom transformation SQL per dataset.
+          - Led a team of 5 engineers developing a configuration-driven data ingestion pipeline in Airflow, PySpark, and Databricks for EHR data, reducing dataset onboarding time from 4 weeks to 1 week by eliminating custom transformation SQL.
           - Optimized Elasticsearch indexing configuration and cluster scale, resulting in an annual cost reduction of $400,000.
           - Implemented a framework for integration testing of Spark applications, significantly reducing production defects.
           - Promoted to Staff Software Engineer in September 2023.
@@ -57,7 +55,7 @@ cv:
         location: Portland, OR (Remote)
         summary:
         highlights:
-          - Designed and implemented the proof-of-concept Data Lakehouse that provided the foundation for LegitScript’s current Data Lake, using AWS DMS for CDC streaming to S3 with ingestion into Databricks and Delta Lake, plus a GraphQL data abstraction layer built with Node.js and AWS Lambda.
+          - Designed and implemented the proof-of-concept Data Lakehouse that became the foundation for LegitScript’s production Data Lake, using CDC streaming (AWS DMS) to S3 with ingestion into Databricks and Delta Lake, plus a GraphQL abstraction layer on AWS Lambda.
           - Developed a high-performance web scraping pipeline capable of crawling and ingesting 500,000 websites daily using TypeScript, AWS Step Functions, Lambda, and EventBridge.
           - Led maintenance and enhancement of a horizontally scalable web crawler operating in a Kubernetes cluster on AWS EKS.
       - company: LegitScript
@@ -101,7 +99,7 @@ cv:
       - label: Cloud & Infrastructure
         details: AWS (ECS, Lambda, EKS, DMS, SageMaker, S3), Kubernetes, Docker, Terraform
       - label: Practices & Tools
-        details: CI/CD, TDD, integration testing, version control, observability (Datadog), data quality, data governance, HIPAA compliance
+        details: CI/CD, TDD, observability (Datadog), data quality, data governance, HIPAA compliance
     education:
       - institution: University of Texas of the Permian Basin
         area: Computer Science
